@@ -589,7 +589,7 @@ video{
 	background: #05AA05;
 }
 
-@media(min-width:451px) {
+@media(max-width:415px) {
     .showcase-block {
         display: none;
     }
