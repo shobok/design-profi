@@ -586,18 +586,6 @@ video{
 	background: #05AA05;
 }
 
-@media(max-width:415px) {
-
-    .showcase-block {
-        display: none;
-    }
-
-    .logo-brand {
-        display: none;
-    }
-
-}
-
 .h-contact {
     padding: 1em 0;
 }
@@ -614,4 +602,12 @@ footer {
     padding: 1em 0 0 0;
     color: #fff;
     font-size: 18px;
+}
+
+@media(max-width:415px) {
+
+    .showcase-block {
+        display: none;
+    }
+
 }
