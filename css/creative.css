@@ -593,7 +593,7 @@ video{
     }
 
     .logo-brand {
-        width: 90%;
+        display: none;
     }
 
 }
