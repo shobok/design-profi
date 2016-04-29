@@ -589,6 +589,12 @@ video{
 	background: #05AA05;
 }
 
+@media(min-width:451px) {
+    .showcase-block {
+        display: none;
+    }
+}
+
 .h-contact {
     padding: 1em 0;
 }
