@@ -156,9 +156,6 @@ section {
         color: #028905;
     }
 
-    .logo-brand {
-        width: 100%;
-    }
 }
 
 header {
@@ -590,9 +587,15 @@ video{
 }
 
 @media(max-width:415px) {
+
     .showcase-block {
         display: none;
     }
+
+    .logo-brand {
+        width: 90%;
+    }
+
 }
 
 .h-contact {
