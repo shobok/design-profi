@@ -49,7 +49,12 @@ p {
 .text-faded {
     color: #fff;
     padding: 1em;
-    font-size: 22px;
+    font-size: 1.3em;
+}
+
+.text-hoverblock {
+    color: #fff;
+    font-size: 0.8em;
 }
 
 section {
@@ -603,9 +608,13 @@ footer {
     font-size: 18px;
 }
 
-@media(max-width:415px) {
+@media(max-width:768px) {
 
     .showcase-block {
+        display: none;
+    }
+
+    .project-category, .visit {
         display: none;
     }
 
