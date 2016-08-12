@@ -461,8 +461,8 @@ body {
 video{
    position:fixed;
    z-index:-1;
-   min-width:100%;
-   min-height:100%;
+   min-width: 100%;
+   min-height: 100%;
    overflow: hidden;
 }
 
@@ -507,12 +507,18 @@ video{
     border: 2px solid #028905;
 }
 
+.showcase-block {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .showcase {
 	list-style: none;
 }
 
 .showcase li {
 	float: left;
+    width: 20%;
 	overflow: hidden;
 	margin: 1em;
     vertical-align: middle;
