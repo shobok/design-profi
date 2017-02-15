@@ -471,6 +471,10 @@ video{
     margin-top: 8em;
 }
 
+.body-section {
+    width: 100%;
+}
+
 .header-section, .body-section, .btn-section {
     margin: 3em 1em;
 }
@@ -508,7 +512,7 @@ video{
 }
 
 .showcase-block {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -613,6 +617,11 @@ video{
 footer {
     padding: 1em 0 0 0;
     font-size: 18px;
+}
+
+.modal-body h4 {
+    text-align: center;
+    margin-top: 30px;
 }
 
 @media(max-width:768px) {
