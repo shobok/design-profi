@@ -1,11 +1,11 @@
-html,
 body {
-    max-width: 1600px;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+body, .navbar-default {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 hr {
@@ -67,7 +67,6 @@ section {
 }
 
 .navbar-default {
-    max-width: 1600px;
     border-color: rgba(34,34,34,.05);
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
@@ -114,60 +113,49 @@ section {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: none;
         background-color: transparent;
     }
-
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
     }
-
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
         color: #fff;
     }
-
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: rgba(255,255,255,.7);
     }
-
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
         color: #fff;
     }
-
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: #fff;
     }
-
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #028905;
     }
-
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
         color: #05AA05;
     }
-
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
         color: #222;
     }
-
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #028905;
     }
-
 }
 
 header {
     position: relative;
-    width: 100%;
-    min-height: auto;
+    height: 800px;
     text-align: center;
     color: #fff;
 }
@@ -201,7 +189,6 @@ header .header-content .header-content-inner p {
     header {
         min-height: 100%;
     }
-
     header .header-content {
         position: absolute;
         top: 50%;
@@ -210,13 +197,11 @@ header .header-content .header-content-inner p {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
     }
-
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
@@ -298,7 +283,6 @@ header .header-content .header-content-inner p {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
     }
-
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
@@ -452,18 +436,17 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: #222;
-}
-
 /* add new style */
 
-video{
-   position:fixed;
-   z-index:-1;
-   min-width: 100%;
-   min-height: 100%;
-   overflow: hidden;
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999;
 }
 
 .logotype {
@@ -492,6 +475,15 @@ video{
     margin: 1em 0;
 }
 
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+}
+
 .input-group {
     width: 90%;
 }
@@ -511,8 +503,8 @@ video{
     border: 2px solid #028905;
 }
 
-.showcase-block {
-    width: 90%;
+.design-works {
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -615,8 +607,18 @@ video{
 }
 
 footer {
+    height: 70px;
+    width: 100%;
     padding: 1em 0 0 0;
     font-size: 18px;
+    *background-color: #222;
+    *opacity: 0.6;
+}
+footer, header {
+    width: 100%;
+    margin: 0;
+    background-color: #222;
+    opacity: 0.6;
 }
 
 .modal-body h4 {
@@ -625,13 +627,12 @@ footer {
 }
 
 @media(max-width:768px) {
-
     .showcase-block {
         display: none;
     }
-
     .project-category, .visit {
         display: none;
     }
-
 }
+
+
