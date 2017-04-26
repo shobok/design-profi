@@ -1,6 +1,7 @@
 body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: #222;
 }
 
 body, .navbar-default {
@@ -446,12 +447,11 @@ img::-moz-selection {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -99;
+    z-index: -999;
 }
 
 .logotype {
     width: 70%;
-    margin-top: 8em;
 }
 
 .body-section {
@@ -611,14 +611,11 @@ footer {
     width: 100%;
     padding: 1em 0 0 0;
     font-size: 18px;
-    *background-color: #222;
-    *opacity: 0.6;
 }
 footer, header {
     width: 100%;
     margin: 0;
-    background-color: #222;
-    opacity: 0.6;
+    background-color: rgba(34,34,34,0.4);
 }
 
 .modal-body h4 {
