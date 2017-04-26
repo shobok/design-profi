@@ -446,7 +446,7 @@ img::-moz-selection {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -999;
+    z-index: -99;
 }
 
 .logotype {
