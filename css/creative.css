@@ -692,15 +692,26 @@ footer, header {
     border: 1px solid #028905;
 }
 
+.modal-item img {
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+
 .modal-item-discription {
-    height: 110px;
-    width: 100%;
     margin: 40px 0;
     padding: 20px 10px;
-    color: #fff;
-    background-color: #028905;
+    color: #222;
 }
 
 .modal-item-discription p {
     margin: 0;
+}
+
+.modal-item-discription a {
+    color: #028905;
+}
+
+.modal-item-discription a,
+.modal-item-discription p {
+    font-size: 18px;
 }
